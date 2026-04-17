@@ -1,0 +1,2 @@
+# industrial_ros2_inspector/__init__.py
+import industrial_ros2_inspector.main
