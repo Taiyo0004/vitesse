@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "industrial-ros2-inspector"
+version = "0.1.0"
+description = "Industrial ROS2 Inspector & Performance Monitor"
+authors = [
+    { name="sejal_raykhere" }
+]
+dependencies = [
+    "rclpy",
+    "PyQt5",
+    "rosidl-runtime-py"
+]
+
+[project.scripts]
+industrial-inspector = "industrial_ros2_inspector.main:main"

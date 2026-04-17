@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: industrial-ros2-inspector
+Version: 0.1.0
+Summary: Industrial ROS2 Inspector & Performance Monitor
+Author: sejal_raykhere
+Requires-Dist: rclpy
+Requires-Dist: PyQt5
+Requires-Dist: rosidl-runtime-py
