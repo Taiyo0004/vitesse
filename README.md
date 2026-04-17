@@ -3,6 +3,8 @@
 A comprehensive graphical diagnostic tool designed for real-time monitoring and performance analysis of **ROS2 ecosystems**. Engineered for industrial debugging, this tool tracks system-wide throughput and message latencies through an intuitive hierarchical interface.
 
 ---
+## 📦 Installation
+   pip install industrial-ros2-inspector
 
 ## 📝 Overview
 
@@ -82,7 +84,7 @@ The application follows a **modular architecture**, separating backend logic fro
 
 ## 🚀 Getting Started
 
-### 🔧 1. Prerequisites
+### 🔧  Prerequisites
 
 - OS: Ubuntu 22.04 (or compatible Linux)
 - ROS2: Humble / Foxy / Galactic
@@ -92,16 +94,13 @@ The application follows a **modular architecture**, separating backend logic fro
   ```
 
 ---
-
-### ▶️ 2. Execution
+🚀 Getting Started
+▶️ Run the Tool
 
 Make sure your ROS2 environment is sourced:
 
-```bash
 source /opt/ros/humble/setup.bash
-source ~/your_ws/install/setup.bash
-python3 main.py
-```
+industrial-inspector
 
 ---
 
@@ -118,8 +117,10 @@ python3 main.py
 - ✅ **Active Selection** 
 
   Use checkboxes to include/exclude topics in:
-  - Combined Total  
-  - Combined Average  
+  - Combined Total Frequency (Hz).
+  - Average  Frequency (Hz)
+  - Combined Average Latency (ms). 
+  -Average Latency (ms) 
 
 ---
 
@@ -140,13 +141,12 @@ python3 main.py
 
 ---
 
-## 📌 Notes
+## 📁 Project Structure
 
-> This tool is designed to assist engineers in identifying:
-> - Communication bottlenecks  
-> - Sensor drops  
-> - Timing inconsistencies  
-> in complex robotic systems.
+industrial_ros2_inspector/
+ ├── main.py 
+ ├── inspector_logic.py 
+ └── __init__.py
 
 ---
 

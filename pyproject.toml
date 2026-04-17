@@ -16,4 +16,4 @@ dependencies = [
 ]
 
 [project.scripts]
-industrial-inspector = "industrial_ros2_inspector.main:main"
+vite = "industrial_ros2_inspector.main:main"
